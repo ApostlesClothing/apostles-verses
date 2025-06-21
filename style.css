@@ -13,18 +13,14 @@ body {
 #container {
   text-align: center;
   width: 100%;
+  max-width: 600px;
   position: relative;
 }
 
-img {
-  width: 100vw;
-  height: auto;
-  object-fit: contain;
-  margin: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 0;
+img#daily-photo {
+  width: auto;
+  height: 100vh;
+  object-fit: cover;
 }
 #logo-hotspot {
   position: absolute;
