@@ -17,14 +17,11 @@ body {
   position: relative;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  max-height: 80vh;
-  object-fit: contain;
-  margin: 0;
+img#daily-photo {
+  width: auto;
+  height: 100vh;
+  object-fit: cover;
 }
-
 #logo-hotspot {
   position: absolute;
   bottom: 8%;
